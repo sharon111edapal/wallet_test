@@ -1,0 +1,49 @@
+{
+  "name": "oambit_wallet",
+  "version": "1.0.0",
+  "description": "Crypto Wallet",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OAMBIT/oambit_wallet.git"
+  },
+  "keywords": [
+    "Crypto",
+    "Wallet"
+  ],
+  "author": "Aneep Tandel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OAMBIT/oambit_wallet/issues"
+  },
+  "homepage": "https://github.com/OAMBIT/oambit_wallet#readme",
+  "dependencies": {
+    "@trustwallet/wallet-core": "^3.0.1",
+    "axios": "^0.27.2",
+    "bip39": "^3.0.4",
+    "blockbook-client": "^0.7.6",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ethereum-input-data-decoder": "^0.4.2",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.1",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.7.8",
+    "redis": "^4.3.1",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0",
+    "validatorjs": "^3.22.1",
+    "web3": "^1.7.5",
+    "ws": "^8.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

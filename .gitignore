@@ -1,0 +1,11 @@
+/node_modules
+package-lock.json
+.vscode
+.DS_Store
+.env
+storage/
+storage/uploads/
+config/key_dev.js
+yarn.lock
+.eslintcache
+
