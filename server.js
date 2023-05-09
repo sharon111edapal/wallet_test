@@ -15,17 +15,17 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // DB Config
-const mongooseOptions = { useUnifiedTopology: true };
+//const mongooseOptions = { useUnifiedTopology: true };
 // Connect to mongoDB
-mongoose
-	.connect(mongoURI, mongooseOptions)
-	.then(async () => {
-		console.log("MongoDB connected");
-	})
-	.catch((err) => {
-		console.error("Could not connect to the MongoDB. ERR: ", err);
-		process.exit();
-	});
+//mongoose
+//	.connect(mongoURI, mongooseOptions)
+//	.then(async () => {
+//		console.log("MongoDB connected");
+//	})
+//	.catch((err) => {
+//		console.error("Could not connect to the MongoDB. ERR: ", err);
+//		process.exit();
+//	});
 
 app.use("/", routes);
 
